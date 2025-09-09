@@ -1,0 +1,149 @@
+/* App.css */
+html,body {
+  background: #7f16c6 ;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Carstian_Luyckx_-_Still_life_with_a_globe%2C_books%2C_shells_and_corals_resting_on_a_stone_ledge.jpg/500px-Carstian_Luyckx_-_Still_life_with_a_globe%2C_books%2C_shells_and_corals_resting_on_a_stone_ledge.jpg);
+  background-color: rgb(214, 68, 214,0.5);
+  background-blend-mode: lighten;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  box-shadow: 0 5px 30px rgb(246, 219, 18);
+  background-color: rgb(83, 244, 255);
+  height: auto
+}
+
+h1 {
+  font-weight: 700;
+  color: #0045cf;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-shadow: 0 2px 12px rgb(245, 255, 54);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 320px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3182ce;
+}
+
+button {
+  background-color: #218e00;
+  color: white;
+  border: none;
+  padding: 0 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: background-color 0.1s ease;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.error {
+  color: #e53e3e;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.section {
+  background: rgba(38, 219, 18, 0.582);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 30px rgb(239, 236, 47);
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.section.fullwidth {
+  grid-column: span 2;
+  max-height: none;
+}
+
+h2, h3, h4 {
+  margin-top: 0;
+  color: #2d3748;
+}
+
+.thumbnail {
+  max-width: 250px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.1);
+  display: block;
+}
+
+.list-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+}
+
+.list-scroll ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.list-scroll li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #edf2f7;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.list-scroll li:last-child {
+  border-bottom: none;
+}
+
+.metrics p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+canvas {
+  width: 100% !important;
+  height: 200px !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  background: rgb(221, 245, 42);
+  margin-top: 0.5rem;
+  display: block;
+}
