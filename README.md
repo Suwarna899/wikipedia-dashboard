@@ -2,7 +2,7 @@
 
 A dynamic, single-page React application that delivers deep insights into any Wikipedia article. Users can input a page title (e.g., "Albert Einstein") and instantly view detailed statistics, metadata, content, and engagement metrics — all fetched via the [MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page).
 
-> 🔗 **Live Demo**: [https://s_suwarna.github.io/wikipedia-dashboard](https://s_suwarna.github.io/wikipedia-dashboard)
+> 🔗 **Live Demo**: [https://Suwarna899.github.io/wikipedia-dashboard](https://Suwarna899.github.io/wikipedia-dashboard)
 
 ---
 
