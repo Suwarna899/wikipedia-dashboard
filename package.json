@@ -1,7 +1,7 @@
 {
   "name": "wiki-analytics-dashboard",
   "version": "0.1.0",
-  "homepage": "https://github.com/Suwarna899/wikipedia-dashboard",
+  "homepage": "https://github.com/suwarna899/wikipedia-dashboard",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
